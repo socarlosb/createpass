@@ -9,13 +9,13 @@ I did used the `create-react-app` module so you may found some unnecessary files
 1. Run `npm i` to get the necessary node modules
 1. Run `npm run build` to create a build solution
 1. You can then go to the build folder and open the `index.html` file on your browser
-1. Or, for example, you can also put it online with a serverless service like _Now_
+1. Or, for example, you can also put it online with a serverless service like _Now_, or _Netlify_
 
-   1. You can also use mine in https://build-hhjjzrvzdf.now.sh/
+   1. You can also use mine in https://silly-panini-2c2f7f.netlify.com/
 
 ## Run in the terminal with NodeJS
 
-## Requisits
+## Requisites
 
 - You need to have NodeJS installed
 
@@ -28,7 +28,7 @@ I did used the `create-react-app` module so you may found some unnecessary files
 
 By default 6 passwords will be generated with 16 characters, you can execute the file with 2 arguments:
 
-> `node getpadd.js <number of characters> <number of passwords>`
+> `node getpass.js <number of characters> <number of passwords>`
 
 Example:
 
