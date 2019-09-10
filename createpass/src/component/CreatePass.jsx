@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Input extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      numberOfChars: 16,
-      numberOfStrings: 4,
-      charset: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789',
+      numberOfChars: 18,
+      numberOfStrings: 10,
+      charset:
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@^[\\]^_`{|}~",
       stringList: []
     };
     this.handleChange = this.handleChange.bind(this);
@@ -23,7 +24,7 @@ class Input extends Component {
     let tempStringList = [];
 
     function generatePassword(stringLength, charset) {
-      let test = '';
+      let test = "";
       for (let i = 0, n = charset.length; i < stringLength; ++i) {
         test += charset.charAt(Math.floor(Math.random() * n));
       }
@@ -52,7 +53,10 @@ class Input extends Component {
 
   render() {
     return (
-      <div className="section">
+      <div className="container">
+        <p className="is-uppercase is-size-4 has-text-centered title-margin">
+          Password Generator
+        </p>
         <form className="field" onSubmit={this.handleSubmit.bind(this)}>
           <div className="field">
             <label className="label" htmlFor="numberOfChars">
@@ -105,8 +109,8 @@ class Input extends Component {
         <textarea
           className="textarea"
           name="stringList"
-          rows="4"
-          value={this.state.stringList.join('\n')}
+          rows="10"
+          value={this.state.stringList.join("\n")}
           readOnly
           placeholder="Strings..."
         />

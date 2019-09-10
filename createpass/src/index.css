@@ -10,9 +10,14 @@ body {
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html {
-  height: 100vh;
+.central {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.title-margin {
+  margin-bottom: 2rem;
 }
