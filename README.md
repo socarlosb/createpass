@@ -1,5 +1,7 @@
 # A simple password generator
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e86b541-e4e0-450a-811f-b6645dc36c52/deploy-status)](https://app.netlify.com/sites/silly-panini-2c2f7f/deploys)
+
 A simple password generator, you can run on the terminal with `getpass.js`, or in the browser with a React App.
 I did used the `create-react-app` module so you may found some unnecessary files.
 
