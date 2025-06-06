@@ -13,7 +13,7 @@ I did used the `create-react-app` module so you may found some unnecessary files
 1. You can then go to the build folder and open the `index.html` file on your browser
 1. Or, for example, you can also put it online with a serverless service like ~~_Now_~~ _Vercel_, or _Netlify_
 
-   1. You can also use mine in https://silly-panini-2c2f7f.netlify.com/
+   1. You can also use mine in https://silly-panini-2c2f7f.netlify.app
 
 ## Run in the terminal with NodeJS
 
